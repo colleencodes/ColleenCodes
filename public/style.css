@@ -1,0 +1,21 @@
+h1, p
+{  
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: center;
+}
+
+.image
+{ 
+  display: block;
+  margin: 0 auto; 
+  width: 240px; 
+  background-color: #000; 
+  border: 8px solid #000; 
+  vertical-align: top; 
+} 
+
+.center-div
+{
+	margin: 0 auto;
+	width: 300px;
+}
