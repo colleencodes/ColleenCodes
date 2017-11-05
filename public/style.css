@@ -1,21 +1,33 @@
 h1, p
 {  
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: Calibri, Candara, Arial, sans-serif;
   text-align: center;
 }
 
-.image
-{ 
-  display: block;
-  margin: 0 auto; 
-  width: 240px; 
-  background-color: #000; 
-  border: 8px solid #000; 
-  vertical-align: top; 
-} 
-
-.center-div
-{
-	margin: 0 auto;
-	width: 300px;
+.center-div{
+  width: 800px;
+  margin: 0 auto;
 }
+
+.side-by-side-image{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.image{
+  height: 200px;
+}
+
+.side-by-side-text{
+  width: 550px;
+  height: 200px;
+  margin-left: 250px;
+  vertical-align: middle;
+  
+}
+
+.side-by-side-text p{
+  text-align: left;
+}
+
