@@ -1,4 +1,4 @@
-h1, p
+h1, p, ul
 {  
   font-family: Calibri, Candara, Arial, sans-serif;
   text-align: center;
@@ -19,6 +19,10 @@ h1, p
   height: 200px;
 }
 
+.header-image{
+  height: 50px;
+}
+
 .side-by-side-text{
   width: 550px;
   height: 200px;
@@ -31,3 +35,27 @@ h1, p
   text-align: left;
 }
 
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #B4CDCD;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  padding: 14px 16px;
+}
+
+li a:hover{
+  background-color: #D3D3D3;
+}
+
+.active{
+  background-color: #008B8B;
+}
