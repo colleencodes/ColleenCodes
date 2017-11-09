@@ -1,7 +1,7 @@
 h1, p, ul
 {  
   font-family: Calibri, Candara, Arial, sans-serif;
-  text-align: center;
+  text-align: left;
 }
 
 .center-div{
@@ -20,7 +20,7 @@ h1, p, ul
 }
 
 .header-image{
-  height: 50px;
+  height: 75px;
 }
 
 .side-by-side-text{
@@ -37,14 +37,20 @@ h1, p, ul
 
 ul{
   list-style-type: none;
-  margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #B4CDCD;
+  background: linear-gradient(#B4CDCD, white);
+  width: 800px;
+  margin: 0 auto;
+  height: 75px;
+  text-align: center;
 }
 
 li{
-  float: left;
+  /*float: left;*/
+  display: inline-block;
+  float: none;
+  vertical-align: middle;;
 }
 
 li a{
@@ -57,5 +63,5 @@ li a:hover{
 }
 
 .active{
-  background-color: #008B8B;
+  background-color: #B4CDCD;
 }
