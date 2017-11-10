@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<link rel="stylesheet" href="style.css">
+	<title>Colleen Codes</title>
+</head>
+<body>
+	<ul>
+		<li><img class="header-image" src="images/c_squared.jpg" /></li>
+		<li><a href='home.html'>Home</a></li>
+		<li><a href='coding.html'>Coding</a></li>
+		<li><a class="active" href='knitting.html'>Knitting</a></li>
+		<li><a href='about.html'>About</a></li>
+	</ul>
+	<h1>Knitting</h1>
+</body>
+
+<!-- <script src="jquery-3.2.1.min.js">
+	var dir = "/images/knitting/";
+	var fileextension = ".jpg";
+	$.ajax({
+	    //This will retrieve the contents of the folder if the folder is configured as 'browsable'
+	    url: dir,
+	    success: function (data) {
+	        //List all .png file names in the page
+	        $(data).find("a:contains(" + fileextension + ")").each(function () {
+	            var filename = this.href.replace(window.location.host, "").replace("http://", "");
+	            $("body").append("<img src='" + dir + filename + "'>");
+	        });
+	    }
+	});
+</script> -->
+</html>
+
+<!-- https://stackoverflow.com/questions/18480550/how-to-load-all-the-images-from-one-of-my-folder-into-my-web-page-using-jquery -->
