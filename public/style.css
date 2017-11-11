@@ -81,3 +81,11 @@ li a:hover{
   padding: 15px;
   text-align: center;
 }
+
+.img-row{
+  clear: both;
+  float: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
