@@ -4,6 +4,10 @@ h1, p, ul
   text-align: left;
 }
 
+h1{
+  width: 800px;
+}
+
 .center-div{
   width: 800px;
   margin: 0 auto;
@@ -80,11 +84,11 @@ li a:hover{
 .img-desc{
   padding: 15px;
   text-align: center;
+  font-family: Calibri, Candara, Arial, sans-serif;
 }
 
 .img-row{
   clear: both;
-  float: center;
   width: 100%;
   height: auto;
   margin: auto;
