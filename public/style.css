@@ -24,7 +24,7 @@ h1{
 }
 
 .header-image{
-  height: 75px;
+  height: 60px;
 }
 
 .side-by-side-text{
@@ -46,7 +46,7 @@ ul{
   background: linear-gradient(#B4CDCD, white);
   width: 800px;
   margin: 0 auto;
-  height: 75px;
+  height: 100px;
   text-align: center;
   border-radius: 25px;
 }
