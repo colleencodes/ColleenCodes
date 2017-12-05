@@ -27,6 +27,14 @@ h1{
   height: 60px;
 }
 
+.website-name{
+  float: left;
+  line-height: 100px;
+  font-family: Calibri, Candara, Arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+}
+
 .side-by-side-text{
   width: 550px;
   height: 200px;
@@ -47,7 +55,7 @@ ul{
   width: 800px;
   margin: 0 auto;
   height: 100px;
-  text-align: center;
+  text-align: right;
   border-radius: 25px;
 }
 
