@@ -110,3 +110,23 @@ li a:hover{
   font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
   font-size: small;
 }
+
+/*full page background image test*/
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+body::after {
+  background: url('images/petitPrinceBg.jpg');
+  content: "";
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;   
+}
