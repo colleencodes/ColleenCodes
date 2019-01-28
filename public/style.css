@@ -1,16 +1,29 @@
-h1, p, ul
-{  
-  font-family: Calibri, Candara, Arial, sans-serif;
+h1{  
+  font-family: Bradley Hand, cursive;
   text-align: left;
+  width: 800px;
 }
 
-h1{
-  width: 800px;
+p, ul{
+  font-family: Trebuchet MS, sans-serif;
 }
 
 .center-div{
+  /*width: 800px;
+  margin: 0 auto;*/
+  margin: auto;
   width: 800px;
-  margin: 0 auto;
+  /*padding: 120px;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome-header{
+  text-align: center;
+  vertical-align: middle;
+  font-size: 48px;
 }
 
 .side-by-side-image{
@@ -30,7 +43,7 @@ h1{
 .website-name{
   float: left;
   line-height: 100px;
-  font-family: Calibri, Candara, Arial, sans-serif;
+  font-family: Bradley Hand, cursive;
   font-size: 48px;
   font-weight: bold;
   margin-left: 5px;
@@ -52,34 +65,33 @@ ul{
   list-style-type: none;
   padding: 0;
   overflow: hidden;
-  background: linear-gradient(#B4CDCD, white);
   width: 800px;
   margin: 0 auto;
   height: 100px;
   text-align: right;
-  border-radius: 25px;
+  vertical-align: middle;
 }
 
 li{
-  /*float: left;*/
   display: inline-block;
   float: none;
-  vertical-align: middle;;
+  height: 100px;
+  line-height: 100px;
 }
 
 li a{
   display: block;
-  padding: 14px 16px;
+  padding: 14px 20px;
+  color: gray;
+  text-decoration: none;
 }
 
 li a:hover{
-  background-color: #F5F5F5;
-  border-radius: 25px;
+  font-size: 22px;
 }
 
 .active{
-  background-color: #B4CDCD;
-  border-radius: 25px;
+  color: black;
 }
 
 .gallery{
@@ -111,7 +123,6 @@ li a:hover{
   font-size: small;
 }
 
-/*full page background image test*/
 body {
   width: 100%;
   height: 100%;
@@ -130,3 +141,27 @@ body::after {
   left: 0;
   z-index: -1;   
 }
+
+.explore-btn{
+  background: white;
+  font-family: Trebuchet MS, sans-serif;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:white; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 22px;
+}
+
+/*.full-sized-div{
+  height:100%;
+  width:100%;
+  overflow:hidden;
+}*/
