@@ -9,21 +9,27 @@ p, ul{
 }
 
 .center-div{
-  /*width: 800px;
-  margin: 0 auto;*/
   margin: auto;
   width: 800px;
-  /*padding: 120px;*/
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.resume-div{
+  width: 800px;
+  margin: auto;
+}
+
 .welcome-header{
   text-align: center;
   vertical-align: middle;
   font-size: 48px;
+}
+
+.resume-header{
+  text-align: left;
 }
 
 .side-by-side-image{
@@ -159,9 +165,3 @@ input[type=submit] {
     font-family: Trebuchet MS, sans-serif;
     font-size: 22px;
 }
-
-/*.full-sized-div{
-  height:100%;
-  width:100%;
-  overflow:hidden;
-}*/
