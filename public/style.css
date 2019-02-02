@@ -4,6 +4,12 @@ h1{
   width: 800px;
 }
 
+h2{
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  text-align: center;
+  font-size: 28px;
+}
+
 p, ul{
   font-family: Trebuchet MS, sans-serif;
 }
@@ -129,7 +135,7 @@ li a:hover{
   font-size: small;
 }
 
-body {
+/*body {
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -146,7 +152,112 @@ body::after {
   right: 0;
   left: 0;
   z-index: -1;   
+}*/
+
+/*html{
+  background-size: cover;
+  background-attachment: fixed;
 }
+
+.home-bg{
+  background: url('images/petitPrinceBg.jpg') no-repeat center center fixed;
+}
+
+.resume-bg{
+  background: url('images/petitPrinceBg4.jpg') no-repeat center center fixed;
+}*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+.hero{
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  background-origin: center;
+  background-clip: center;
+  background-attachment: fixed;
+}
+
+.hero::before{
+  background-image: url('images/petitPrinceBg.jpg');
+  background-size: cover;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.4;
+}
+
+.coding-bg{
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  background-origin: center;
+  background-clip: center;
+  background-attachment: fixed;
+}
+
+.coding-bg::before{
+  background-image: url('images/petitPrinceBg2.jpg');
+  background-size: cover;
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.4;
+}
+
+.resume-bg{
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background-attachment: fixed;
+
+}
+
+.resume-bg::before{
+  background-image: url('images/petitPrinceBg3.jpg');
+  background-size: cover;
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.4;
+  background-attachment: fixed;
+  background-origin: center;
+}
+
+/*.flex-center {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+}*/
 
 .explore-btn{
   background: white;
