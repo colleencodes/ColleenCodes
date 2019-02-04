@@ -252,12 +252,31 @@ html, body{
   background-origin: center;
 }
 
-/*.flex-center {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-content: center;
-}*/
+.about-bg{
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background-attachment: fixed;
+
+}
+
+.about-bg::before{
+  background-image: url('images/petitPrinceBg4.jpg');
+  background-size: cover;
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.4;
+  background-attachment: fixed;
+  background-origin: center;
+}
+
 
 .explore-btn{
   background: white;
@@ -275,4 +294,15 @@ input[type=submit] {
     border-radius: 5px; 
     font-family: Trebuchet MS, sans-serif;
     font-size: 22px;
+}
+
+.aboutPic{
+  border-radius: 50%;
+  float: right;
+  margin: 0px 0px 15px 20px;
+}
+
+.justifiedText{
+  text-align: justify;
+  text-justify: inter-word;
 }
