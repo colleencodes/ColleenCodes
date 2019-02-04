@@ -38,16 +38,6 @@ p, ul{
   text-align: left;
 }
 
-.side-by-side-image{
-  width: 200px;
-  height: 200px;
-  float: left;
-}
-
-.image{
-  height: 200px;
-}
-
 .header-image{
   height: 60px;
 }
@@ -59,18 +49,6 @@ p, ul{
   font-size: 48px;
   font-weight: bold;
   margin-left: 5px;
-}
-
-.side-by-side-text{
-  width: 550px;
-  height: 200px;
-  margin-left: 250px;
-  vertical-align: middle;
-  
-}
-
-.side-by-side-text p{
-  text-align: left;
 }
 
 ul{
@@ -104,68 +82,9 @@ li a:hover{
 
 .active{
   color: black;
+  font-size: 18px;
+  font-weight: bold;
 }
-
-.gallery{
-  margin: 5px;
-  float: left;
-  width: 180px;
-}
-
-.gallery img{
-  width: 100%;
-  height: auto;
-}
-
-.img-desc{
-  padding: 15px;
-  text-align: center;
-  font-family: Calibri, Candara, Arial, sans-serif;
-}
-
-.img-row{
-  clear: both;
-  width: 100%;
-  height: auto;
-  margin: auto;
-}
-
-.object-text{
-  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
-  font-size: small;
-}
-
-/*body {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  z-index: 0;
-}
-
-body::after {
-  background: url('images/petitPrinceBg.jpg');
-  content: "";
-  opacity: 0.4;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: -1;   
-}*/
-
-/*html{
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.home-bg{
-  background: url('images/petitPrinceBg.jpg') no-repeat center center fixed;
-}
-
-.resume-bg{
-  background: url('images/petitPrinceBg4.jpg') no-repeat center center fixed;
-}*/
 
 *{
   margin: 0;
@@ -177,7 +96,7 @@ html, body{
   height: 100%;
 }
 
-.hero{
+.home{
   width: 100%;
   height: 100%;
   min-width: 100%;
@@ -188,7 +107,7 @@ html, body{
   background-attachment: fixed;
 }
 
-.hero::before{
+.home::before{
   background-image: url('images/petitPrinceBg.jpg');
   background-size: cover;
   content: "";
